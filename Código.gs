@@ -1,3 +1,8 @@
+function onOpen(){
+  crearMenu();
+}
+
+
 // Funciones Principales
 
 function separarValores() {
