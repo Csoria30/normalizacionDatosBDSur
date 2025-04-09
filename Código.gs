@@ -259,3 +259,45 @@ function depurarDatos() {
     }
 
 }
+
+// 4 - Crear Hoja Data
+function crearHojaData() {
+  const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  const hojaOriginal = spreadsheet.getSheetByName("Instituciones");
+  
+  try {
+    // Verificar que la hoja original tenga al menos una fila de datos
+    if (hojaOriginal.getLastRow() < 2) {
+      throw new Error("La hoja original no tiene suficientes filas de datos.");
+    }
+    
+    const datos = hojaOriginal.getDataRange().getValues();
+    
+    // Verificar si la hoja "Data" ya existe
+    let hojaData = spreadsheet.getSheetByName("Data");
+    if (!hojaData) {
+      // Crear la hoja "Data" si no existe
+      hojaData = spreadsheet.insertSheet("Data");
+    }
+    
+    // Insertar la cabecera
+    const cabecera = ["prioridad", "interno", "institucion"];
+    hojaData.appendRow(cabecera);
+    
+    // Procesar los datos
+    const datosProcesados = [];
+    for (let i = 1; i < datos.length; i++) {
+      const fila = [datos[i][5], datos[i][3], datos[i][1]];
+      datosProcesados.push(fila);
+    }
+    
+    // Insertar los datos procesados
+    const rango = hojaData.getRange(2, 1, datosProcesados.length, datosProcesados[0].length);
+    rango.setValues(datosProcesados);
+    
+    // Estilos de la hoja 
+    miEstilo();
+  } catch (error) {
+    SpreadsheetApp.getUi().alert("Error al crear la hoja 'Data': " + error.message);
+  }
+}
