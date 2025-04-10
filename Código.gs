@@ -136,15 +136,65 @@ function depurarDatos() {
 
     const datosReemplazo = [
         {
+            tipo: 'bibliotecas',
+            datos: [
+                { clave: "", valor: "" },
+            ]
+        },
+        {
             tipo: 'educativos',
             datos: [
-                { clave: "centro", valor: " HOLA MI NOMBRE ES RUSSELL " },
+                { clave: "", valor: "" },
+                { clave: "esc", valor: "escuela colegio educativo" },
+                { clave: "escuela", valor: "escuela colegio educativo" },
+            ]
+        },
+        {
+            tipo: 'entre clases',
+            datos: [
+                { clave: "", valor: "" },
+            ]
+        },
+        {
+            tipo: 'gobernacion',
+            datos: [
+                { clave: "", valor: "" },
+            ]
+        },
+        {
+            tipo: 'entes de gobierno',
+            datos: [
+                { clave: "", valor: "" },
+            ]
+        },
+        {
+            tipo: 'militar',
+            datos: [
+                { clave: "", valor: "" },
+            ]
+        },
+        {
+            tipo: 'planta potabilizadora',
+            datos: [
+                { clave: "", valor: "" },
+            ]
+        },
+        {
+            tipo: 'policia',
+            datos: [
+                { clave: "", valor: "" },
             ]
         },
         {
             tipo: 'salud',
             datos: [
-                { clave: "mandarina", valor: " HOLA JUAN CARLOS, QUE HACES " },
+                { clave: "", valor: "" },
+            ]
+        },
+        {
+            tipo: 'terrazas del portezuelo',
+            datos: [
+                { clave: "", valor: "" },
             ]
         },
 
@@ -159,22 +209,25 @@ function depurarDatos() {
 
         // Objeto principal - Informacion de la fila 
         const objDatos = datosTipoOrganismo.map((valor, indice) => {
-          return {
-            tipoOrganismo: valor[0],
-            localidad: datosLocalidades[indice][0],
-            interno: datosInternos[indice][0],
-            nombre: datosNombre[indice][0],
-            texto: `${datosNombre[indice][0]} ${datosLocalidades[indice][0]} ${datosInternos[indice][0]}`
-          }
+            return {
+                tipoOrganismo: valor[0],
+                localidad: datosLocalidades[indice][0],
+                interno: datosInternos[indice][0],
+                nombre: datosNombre[indice][0],
+                texto: `${datosNombre[indice][0]} ${datosLocalidades[indice][0]} ${datosInternos[indice][0]}`
+            }
         });
 
-        
+
         objDatos.forEach((fila) => {
             let texto = fila.texto; // Nombre del organismo
             let tipoDeOrganismo = fila.tipoOrganismo; // Tipo de organismo
 
+            // Aplicar función normalizarTexto
+            texto = normalizarTexto(texto);
+            tipoDeOrganismo = normalizarTexto(tipoDeOrganismo);
+
             // Buscar el objeto de reemplazo correspondiente al tipo de organismo
-            /*
             const reemplazo = datosReemplazo.find((reemplazo) => reemplazo.tipo === tipoDeOrganismo);
             if (reemplazo) {
                 // Reemplazar palabras utilizando el objeto de reemplazo
@@ -188,10 +241,8 @@ function depurarDatos() {
                     texto = palabras.join(' ');
                 });
             }
-            */
 
-            // Aplicar función normalizarTexto
-            texto = normalizarTexto(texto);
+
 
             // Actualizar datosNombre[i][0] con el texto normalizado
             fila.texto = texto;
