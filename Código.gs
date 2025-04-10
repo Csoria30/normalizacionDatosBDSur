@@ -134,6 +134,19 @@ function eliminarFilas() {
 // 3 - Depurar nombres datos
 function depurarDatos() {
 
+    const datosReemplazoGenerales = [
+        { clave: "", valor: "" },
+        { clave: "de", valor: "" },
+        { clave: "y", valor: "" },
+        { clave: "los", valor: "" },
+        { clave: "la", valor: "" },
+        { clave: "b", valor: "" },
+        { clave: "style", valor: "" },
+        { clave: "gral", valor: "general" },
+        { clave: "sempro", valor: "sempro emergencia ambulancia" },
+        { clave: "ulp", valor: "ulp universidad punta" },
+    ];
+
     const datosReemplazo = [
         {
             tipo: 'bibliotecas',
@@ -189,6 +202,10 @@ function depurarDatos() {
             tipo: 'salud',
             datos: [
                 { clave: "", valor: "" },
+                { clave: "caps", valor: "centro salud sala salita caps" },
+                { clave: "centro", valor: "centro salud sala salita caps" },
+                { clave: "ctro", valor: "centro salud sala salita caps" },
+                { clave: "periferico", valor: "centro salud sala salita caps" },
             ]
         },
         {
@@ -198,6 +215,28 @@ function depurarDatos() {
             ]
         },
 
+    ];
+
+    const reemplazosPorString = [
+        { clave: "m ciencia e inn", valor: "ministerio ciencia innovacion del" },
+        { clave: "m des productivo", valor: "ministerio desarrollo productivo del" },
+        { clave: "m des humano", valor: "ministerio desarrollo humano del" },
+        { clave: "m e", valor: "ministerio educacion" },
+        { clave: "m gobierno", valor: "ministerio gobierno del" },
+        { clave: "m gob", valor: "ministerio gobierno del" },
+        { clave: "m jefe gabinete", valor: "ministerio jefe gabinete" },
+        { clave: "m hacienda inf pub", valor: "ministerio hacienda publica del" },
+        { clave: "m hacinfpub", valor: "ministerio hacienda publica del" },
+        { clave: "m sa", valor: "ministerio salud" },
+        { clave: "m seguridad", valor: "ministerio seguridad" },
+        { clave: "m turismo", valor: "ministerio turismo" },
+        { clave: "se act logisticas", valor: "secretaria actividades logisticas" },
+        { clave: "se ambiente des sus", valor: "secretaria ambiente desarrollo sustentable" },
+        { clave: "se comunicacion", valor: "secretaria comunicacion" },
+        { clave: "se d", valor: "secretaria desarrollo" },
+        { clave: "se deporte", valor: "secretaria deporte deportes" },
+        { clave: "se general gob", valor: "secretaria general gobernacion" },
+        { clave: "sg gobernacion", valor: "secretaria general gobernacion" },
     ];
 
     try {
@@ -227,7 +266,20 @@ function depurarDatos() {
             texto = normalizarTexto(texto);
             tipoDeOrganismo = normalizarTexto(tipoDeOrganismo);
 
+            // Aplicar reglas de reemplazo generales
+            datosReemplazoGenerales.forEach((dato) => {
+                const regex = new RegExp(`\\b${dato.clave}\\b`, 'gi');
+                texto = texto.replace(regex, dato.valor);
+            });
+
+            // Aplicar reemplazos por string
+            reemplazosPorString.forEach((dato) => {
+                const regex = new RegExp(`\\b${dato.clave}\\b`, 'gi');
+                texto = texto.replace(regex, dato.valor);
+            });
+
             // Buscar el objeto de reemplazo correspondiente al tipo de organismo
+
             const reemplazo = datosReemplazo.find((reemplazo) => reemplazo.tipo === tipoDeOrganismo);
             if (reemplazo) {
                 // Reemplazar palabras utilizando el objeto de reemplazo
@@ -241,8 +293,6 @@ function depurarDatos() {
                     texto = palabras.join(' ');
                 });
             }
-
-
 
             // Actualizar datosNombre[i][0] con el texto normalizado
             fila.texto = texto;
