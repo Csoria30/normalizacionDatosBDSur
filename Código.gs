@@ -23,6 +23,7 @@ function separarDatos() {
 
 // Funciones Principales
 
+// 1 - Separar registros por medio de internos
 function separarValores() {
     // Expresión regular para identificar delimitadores
     var delimitadores = /[\/\-\s]+|\/\/+/;
@@ -65,7 +66,6 @@ function separarValores() {
 }
 
 // 2 - Elimina filas que no cumple con el formato indicado
-
 function eliminarFilas() {
     let datos = hojaInstituciones.getDataRange().getValues();
     let filaActual = 2;
@@ -73,24 +73,22 @@ function eliminarFilas() {
     let valoresDuplicados = ["3530", "6880", "8928", "5201", "5960"];
     let internosEliminar = ["4840", "4841"];
     let valoresEncontrados = {};
+    let valoresProhibidos = ["data center"]; // Valores prohibidos en valorB
     let MSG_INICIO = "Estamos eliminando los registros con formato incorrecto, por favor espere.";
 
-    //Mensaje
-    //Browser.msgBox(MSG_INICIO);
-
     try {
-
         while (filaActual <= datos.length) {
+            let valorB = datos[filaActual - 1][1].toString().toLowerCase();
+            let valorC = datos[filaActual - 1][2];
             let valorD = datos[filaActual - 1][3].toString().trim();
             let valorE = datos[filaActual - 1][4].toString().toLowerCase();
-            let valorC = datos[filaActual - 1][2];
 
             // Verificando duplicados de internos
-            /*
+
             if (valoresDuplicados.indexOf(valorD) != -1 && valoresEncontrados[valorD]) {
                 filasEliminar.push(filaActual);
             }
-            */
+
             //Eliminar internos 
             if (internosEliminar.includes(valorD)) {
                 filasEliminar.push(filaActual); // Agrega el número de fila a filasEliminar
@@ -99,12 +97,19 @@ function eliminarFilas() {
             if (valoresDuplicados.indexOf(valorD) != -1) {
                 valoresEncontrados[valorD] = true;
             }
+
+            // Comprueba valores prohibidos en valorB (convirtiendo a minúsculas)
+            if (valoresProhibidos.some(valor => valorB.includes(valor.toLowerCase()))) {
+                filasEliminar.push(filaActual);
+            }
+
             // Verificando de internos no validos
             else if (valorD == "" || isNaN(valorD) || (valorD != "" && (valorD.length < 4 || valorD.charAt(0) == "0" || valorD.charAt(0) == "9" || valorD.charAt(0) == "*"))) {
                 if (valorC != "") {
                     filasEliminar.push(filaActual);
                 }
             }
+
             // Verificando Observaciones
             else if (/no transferir|interno pasivo/i.test(valorE)) {
                 if (valorC != "") {
@@ -137,6 +142,7 @@ function depurarDatos() {
     const datosReemplazoGenerales = [
         { clave: "", valor: "" },
         { clave: "de", valor: "" },
+        { clave: "del", valor: "" },
         { clave: "y", valor: "" },
         { clave: "los", valor: "" },
         { clave: "la", valor: "" },
@@ -145,6 +151,10 @@ function depurarDatos() {
         { clave: "gral", valor: "general" },
         { clave: "sempro", valor: "sempro emergencia ambulancia" },
         { clave: "ulp", valor: "ulp universidad punta" },
+        { clave: "prog", valor: "programa" },
+        { clave: "mosca", valor: "mosca moscas" },
+        { clave: "frutos", valor: "fruto frutos" },
+        { clave: "docente", valor: "docente docentes" },
     ];
 
     const datosReemplazo = [
@@ -158,6 +168,7 @@ function depurarDatos() {
             tipo: 'educativos',
             datos: [
                 { clave: "", valor: "" },
+                { clave: "xxi", valor: "21" },
                 { clave: "esc", valor: "escuela colegio educativo" },
                 { clave: "escuela", valor: "escuela colegio educativo" },
             ]
@@ -196,6 +207,16 @@ function depurarDatos() {
             tipo: 'policia',
             datos: [
                 { clave: "", valor: "" },
+                { clave: "5501", valor: "primera 5501" },
+                { clave: "5502", valor: "segunda 5502" },
+                { clave: "5503", valor: "tercera 5503" },
+                { clave: "5504", valor: "cuarta 5504" },
+                { clave: "5525", valor: "quinta 5525" },
+                { clave: "5505", valor: "sexta 5505" },
+                { clave: "5506", valor: "septima 5506" },
+                { clave: "5902", valor: "octava 5902" },
+                { clave: "5903", valor: "novena 5903" },
+                { clave: "5904", valor: "decima 5904" },
             ]
         },
         {
@@ -212,6 +233,7 @@ function depurarDatos() {
             tipo: 'terrazas del portezuelo',
             datos: [
                 { clave: "", valor: "" },
+                { clave: "pane", valor: "pane panes" },
             ]
         },
 
@@ -237,6 +259,8 @@ function depurarDatos() {
         { clave: "se deporte", valor: "secretaria deporte deportes" },
         { clave: "se general gob", valor: "secretaria general gobernacion" },
         { clave: "sg gobernacion", valor: "secretaria general gobernacion" },
+        // Policia
+        { clave: "complejo provincial penitenciario 1", valor: "complejo provincial servicio penitenciario 1" },
     ];
 
     try {
@@ -278,6 +302,11 @@ function depurarDatos() {
                 texto = texto.replace(regex, dato.valor);
             });
 
+            // Agrega el nombre biblioteca
+            if (tipoDeOrganismo === 'bibliotecas') {
+                texto = 'biblioteca ' + texto;
+            }
+
             // Buscar el objeto de reemplazo correspondiente al tipo de organismo
 
             const reemplazo = datosReemplazo.find((reemplazo) => reemplazo.tipo === tipoDeOrganismo);
@@ -311,7 +340,35 @@ function depurarDatos() {
 
 }
 
-// 4 - Crear Hoja Data
+// 4 - Remplazo nombres particulares
+function buscarYReemplazar() {
+    const valoresABuscar = [
+        { valor: "", reemplazo: '' },
+        { valor: "4073", reemplazo: 'ministerio desarrollo humano del direccion viviendas inscripciones san luis 4073' },
+        { valor: "5960", reemplazo: 'hospital central ramon carillo mesa entrada turnos san luis 5960' },
+        { valor: "5201", reemplazo: 'hospital san francisco mesa entrada turnos 5201' },
+        { valor: "8928", reemplazo: 'maternidad doctor carlos alberto luco mesa entrada turnos villa mercedes 8928' },
+        { valor: "3530", reemplazo: 'maternidad teresita baigorria conmutador san luis mesa turnos entrada 3530' },
+        { valor: "6880", reemplazo: 'terminal ediro nueva informe informes mesa entrada 6880 san luis' },
+        { valor: "3206", reemplazo: 'ministerio desarrollo productivo del direccion industrial energias sustentables san luis instalacion paneles solares 3206' },
+    ];
+
+    const hoja = hojaInstituciones;
+    const ultimaFila = hoja.getLastRow();
+    const columnaD = hoja.getRange(1, 4, ultimaFila, 1).getValues();
+    const columnaB = hoja.getRange(1, 2, ultimaFila, 1);
+
+    valoresABuscar.forEach((valor) => {
+        for (let i = 0; i < columnaD.length; i++) {
+            if (columnaD[i][0] === valor.valor) {
+                columnaB.getCell(i + 1, 1).setValue(valor.reemplazo);
+            }
+        }
+
+    });
+}
+
+// 5 - Crear Hoja Data
 function crearHojaData() {
     const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
     const hojaOriginal = spreadsheet.getSheetByName("Instituciones");
