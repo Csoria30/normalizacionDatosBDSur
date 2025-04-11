@@ -70,8 +70,8 @@ function eliminarFilas() {
     let datos = hojaInstituciones.getDataRange().getValues();
     let filaActual = 2;
     let filasEliminar = [];
-    let valoresDuplicados = ["3530", "6880", "8928", "5201", "5960"];
-    let internosEliminar = ["4840", "4841"];
+    let valoresDuplicados = ['3530', '6880', '8928', '5201', '5960'];
+    let internosEliminar = ['4840', '4841', '3269', '2033', '2022', '2055'];
     let valoresEncontrados = {};
     let valoresProhibidos = ["data center"]; // Valores prohibidos en valorB
     let MSG_INICIO = "Estamos eliminando los registros con formato incorrecto, por favor espere.";
@@ -84,11 +84,11 @@ function eliminarFilas() {
             let valorE = datos[filaActual - 1][4].toString().toLowerCase();
 
             // Verificando duplicados de internos
-
+            
             if (valoresDuplicados.indexOf(valorD) != -1 && valoresEncontrados[valorD]) {
                 filasEliminar.push(filaActual);
             }
-
+            
             //Eliminar internos 
             if (internosEliminar.includes(valorD)) {
                 filasEliminar.push(filaActual); // Agrega el número de fila a filasEliminar
@@ -140,21 +140,23 @@ function eliminarFilas() {
 function depurarDatos() {
 
     const datosReemplazoGenerales = [
-        { clave: "", valor: "" },
-        { clave: "de", valor: "" },
-        { clave: "del", valor: "" },
-        { clave: "y", valor: "" },
-        { clave: "los", valor: "" },
-        { clave: "la", valor: "" },
-        { clave: "b", valor: "" },
-        { clave: "style", valor: "" },
-        { clave: "gral", valor: "general" },
-        { clave: "sempro", valor: "sempro emergencia ambulancia" },
-        { clave: "ulp", valor: "ulp universidad punta" },
-        { clave: "prog", valor: "programa" },
-        { clave: "mosca", valor: "mosca moscas" },
-        { clave: "frutos", valor: "fruto frutos" },
-        { clave: "docente", valor: "docente docentes" },
+      { clave: "", valor: "" },
+      { clave: "de", valor: "" },
+      { clave: "del", valor: "" },
+      { clave: "con", valor: "" },
+      { clave: "y", valor: "" },
+      { clave: "los", valor: "" },
+      { clave: "la", valor: "" },
+      { clave: "b", valor: "" },
+      { clave: "style", valor: "" },
+      { clave: "gral", valor: "general" },
+      { clave: "sempro", valor: "sempro emergencia ambulancia" },
+      { clave: "ulp", valor: "ulp universidad punta" },
+      { clave: "prog", valor: "programa" },
+      { clave: "mosca", valor: "mosca moscas" },
+      { clave: "frutos", valor: "fruto frutos" },
+      { clave: "docente", valor: "docente docentes" },
+      { clave: "cipe", valor: "cipe sipe centro emision" },
     ];
 
     const datosReemplazo = [
@@ -240,27 +242,27 @@ function depurarDatos() {
     ];
 
     const reemplazosPorString = [
-        { clave: "m ciencia e inn", valor: "ministerio ciencia innovacion del" },
-        { clave: "m des productivo", valor: "ministerio desarrollo productivo del" },
-        { clave: "m des humano", valor: "ministerio desarrollo humano del" },
-        { clave: "m e", valor: "ministerio educacion" },
-        { clave: "m gobierno", valor: "ministerio gobierno del" },
-        { clave: "m gob", valor: "ministerio gobierno del" },
-        { clave: "m jefe gabinete", valor: "ministerio jefe gabinete" },
-        { clave: "m hacienda inf pub", valor: "ministerio hacienda publica del" },
-        { clave: "m hacinfpub", valor: "ministerio hacienda publica del" },
-        { clave: "m sa", valor: "ministerio salud" },
-        { clave: "m seguridad", valor: "ministerio seguridad" },
-        { clave: "m turismo", valor: "ministerio turismo" },
-        { clave: "se act logisticas", valor: "secretaria actividades logisticas" },
-        { clave: "se ambiente des sus", valor: "secretaria ambiente desarrollo sustentable" },
-        { clave: "se comunicacion", valor: "secretaria comunicacion" },
-        { clave: "se d", valor: "secretaria desarrollo" },
-        { clave: "se deporte", valor: "secretaria deporte deportes" },
-        { clave: "se general gob", valor: "secretaria general gobernacion" },
-        { clave: "sg gobernacion", valor: "secretaria general gobernacion" },
-        // Policia
-        { clave: "complejo provincial penitenciario 1", valor: "complejo provincial servicio penitenciario 1" },
+      { clave: "m ciencia e inn", valor: "ministerio ciencia innovacion del" },
+      { clave: "m des productivo", valor: "ministerio desarrollo productivo del" },
+      { clave: "m des humano", valor: "ministerio desarrollo humano del" },
+      { clave: "m e", valor: "ministerio educacion" },
+      { clave: "m gobierno", valor: "ministerio gobierno del" },
+      { clave: "m gob", valor: "ministerio gobierno del" },
+      { clave: "m jefe gabinete", valor: "ministerio jefe gabinete" },
+      { clave: "m hacienda inf pub", valor: "ministerio hacienda publica del" },
+      { clave: "m hacinfpub", valor: "ministerio hacienda publica del" },
+      { clave: "m sa", valor: "ministerio salud" },
+      { clave: "m seguridad", valor: "ministerio seguridad" },
+      { clave: "m turismo", valor: "ministerio turismo" },
+      { clave: "se act logisticas", valor: "secretaria actividades logisticas" },
+      { clave: "se ambiente des sus", valor: "secretaria ambiente desarrollo sustentable" },
+      { clave: "se comunicacion", valor: "secretaria comunicacion" },
+      { clave: "se d", valor: "secretaria desarrollo" },
+      { clave: "se deporte", valor: "secretaria deporte deportes" },
+      { clave: "se general gob", valor: "secretaria general gobernacion" },
+      { clave: "sg gobernacion", valor: "secretaria general gobernacion" },
+      // Policia
+      { clave: "complejo provincial penitenciario 1", valor: "complejo provincial servicio penitenciario 1" },
     ];
 
     try {
@@ -292,19 +294,19 @@ function depurarDatos() {
 
             // Aplicar reglas de reemplazo generales
             datosReemplazoGenerales.forEach((dato) => {
-                const regex = new RegExp(`\\b${dato.clave}\\b`, 'gi');
-                texto = texto.replace(regex, dato.valor);
+              const regex = new RegExp(`\\b${dato.clave}\\b`, 'gi');
+              texto = texto.replace(regex, dato.valor);
             });
 
             // Aplicar reemplazos por string
             reemplazosPorString.forEach((dato) => {
-                const regex = new RegExp(`\\b${dato.clave}\\b`, 'gi');
-                texto = texto.replace(regex, dato.valor);
+              const regex = new RegExp(`\\b${dato.clave}\\b`, 'gi');
+              texto = texto.replace(regex, dato.valor);
             });
 
             // Agrega el nombre biblioteca
             if (tipoDeOrganismo === 'bibliotecas') {
-                texto = 'biblioteca ' + texto;
+              texto = 'biblioteca ' + texto;
             }
 
             // Buscar el objeto de reemplazo correspondiente al tipo de organismo
@@ -342,30 +344,31 @@ function depurarDatos() {
 
 // 4 - Remplazo nombres particulares
 function buscarYReemplazar() {
-    const valoresABuscar = [
-        { valor: "", reemplazo: '' },
-        { valor: "4073", reemplazo: 'ministerio desarrollo humano del direccion viviendas inscripciones san luis 4073' },
-        { valor: "5960", reemplazo: 'hospital central ramon carillo mesa entrada turnos san luis 5960' },
-        { valor: "5201", reemplazo: 'hospital san francisco mesa entrada turnos 5201' },
-        { valor: "8928", reemplazo: 'maternidad doctor carlos alberto luco mesa entrada turnos villa mercedes 8928' },
-        { valor: "3530", reemplazo: 'maternidad teresita baigorria conmutador san luis mesa turnos entrada 3530' },
-        { valor: "6880", reemplazo: 'terminal ediro nueva informe informes mesa entrada 6880 san luis' },
-        { valor: "3206", reemplazo: 'ministerio desarrollo productivo del direccion industrial energias sustentables san luis instalacion paneles solares 3206' },
-    ];
+  const valoresABuscar = [
+    { valor: "", reemplazo: '' },
+    { valor: "4073", reemplazo: 'ministerio desarrollo humano del direccion viviendas inscripciones san luis 4073' },
+    { valor: "5960", reemplazo: 'hospital central ramon carillo mesa entrada turnos san luis 5960' },
+    { valor: "5201", reemplazo: 'hospital san francisco mesa entrada turnos 5201' },
+    { valor: "8928", reemplazo: 'maternidad doctor carlos alberto luco mesa entrada turnos villa mercedes 8928' },
+    { valor: "3530", reemplazo: 'maternidad teresita baigorria conmutador san luis mesa turnos entrada 3530' },
+    { valor: "6880", reemplazo: 'terminal ediro nueva informe informes mesa entrada 6880 san luis' },
+    { valor: "3206", reemplazo: 'ministerio desarrollo productivo del direccion industrial energias sustentables san luis instalacion paneles solares 3206' },
+  ];
 
-    const hoja = hojaInstituciones;
-    const ultimaFila = hoja.getLastRow();
-    const columnaD = hoja.getRange(1, 4, ultimaFila, 1).getValues();
-    const columnaB = hoja.getRange(1, 2, ultimaFila, 1);
+  const hoja = hojaInstituciones;
+  const ultimaFila = hoja.getLastRow();
+  const columnaD = hoja.getRange(1, 4, ultimaFila, 1).getValues();
+  const columnaB = hoja.getRange(1, 2, ultimaFila, 1);
 
-    valoresABuscar.forEach((valor) => {
-        for (let i = 0; i < columnaD.length; i++) {
-            if (columnaD[i][0] === valor.valor) {
-                columnaB.getCell(i + 1, 1).setValue(valor.reemplazo);
-            }
-        }
+  valoresABuscar.forEach((valor) => {
+    for (let i = 0; i < columnaD.length; i++) 
+    {
+      if (columnaD[i][0] === valor.valor) {
+        columnaB.getCell(i + 1, 1).setValue(valor.reemplazo);
+      }
+    }
 
-    });
+  });
 }
 
 // 5 - Crear Hoja Data
@@ -374,37 +377,40 @@ function crearHojaData() {
     const hojaOriginal = spreadsheet.getSheetByName("Instituciones");
 
     try {
+        // Eliminar la hoja "Data" si existe
+        const hojaDataExistente = spreadsheet.getSheetByName("Data");
+        if (hojaDataExistente){
+          spreadsheet.deleteSheet(hojaDataExistente);
+          Utilities.sleep(2000); // Agregar un retraso de 2 segundos
+        }
+        
+        //Crea la hoja data y obtener la referencia
+        const hojaData = spreadsheet.insertSheet('Data');
+        
         // Verificar que la hoja original tenga al menos una fila de datos
         if (hojaOriginal.getLastRow() < 2) {
             throw new Error("La hoja original no tiene suficientes filas de datos.");
         }
 
-        const datos = hojaOriginal.getDataRange().getValues();
-
-        // Verificar si la hoja "Data" ya existe
-        let hojaData = spreadsheet.getSheetByName("Data");
-        if (!hojaData) {
-            // Crear la hoja "Data" si no existe
-            hojaData = spreadsheet.insertSheet("Data");
-        }
+        //Obteniendo informacion de istituciones
+        const data = hojaOriginal.getDataRange().getValues();
 
         // Insertar la cabecera
         const cabecera = ["prioridad", "interno", "institucion"];
         hojaData.appendRow(cabecera);
 
         // Procesar los datos
-        const datosProcesados = [];
-        for (let i = 1; i < datos.length; i++) {
-            const fila = [datos[i][5], datos[i][3], datos[i][1]];
-            datosProcesados.push(fila);
-        }
+        var resultados = data.map(function(fila) {
+          return [fila[5], fila[3], fila[1]];
+        });
 
+        
         // Insertar los datos procesados
-        const rango = hojaData.getRange(2, 1, datosProcesados.length, datosProcesados[0].length);
-        rango.setValues(datosProcesados);
+        hojaData.getRange(2, 1, resultados.length, resultados[0].length).setValues(resultados);
+
 
         // Estilos de la hoja 
-        miEstilo();
+        //miEstilo();
     } catch (error) {
         SpreadsheetApp.getUi().alert("Error al crear la hoja 'Data': " + error.message);
     }
