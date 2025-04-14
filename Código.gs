@@ -71,9 +71,11 @@ function eliminarFilas() {
     let filaActual = 2;
     let filasEliminar = [];
     let valoresDuplicados = ['3530', '6880', '8928', '5201', '5960'];
-    let internosEliminar = ['4840', '4841', '3269', '2033', '2022', '2055'];
+    let internosEliminar = ['4840', '4841', '3269', '2033', '2022', '2055', '47216', '47217', '47875'];
     let valoresEncontrados = {};
-    let valoresProhibidos = ["data center"]; // Valores prohibidos en valorB
+    
+    // Valores prohibidos en valorB
+    let valoresProhibidos = ["data center", "verificar", "shelter", "sd", "no hay area asignada", "no registra area", "no responde"]; 
     let MSG_INICIO = "Estamos eliminando los registros con formato incorrecto, por favor espere.";
 
     try {
@@ -185,6 +187,10 @@ function depurarDatos() {
             tipo: 'gobernacion',
             datos: [
                 { clave: "", valor: "" },
+                { clave: "gob", valor: "gobernacion" },
+                { clave: "subp", valor: "sub programa" },
+                { clave: "subprogr", valor: "sub programa" },
+                { clave: "vicegobernacion", valor: "vicegobernacion vice gobernacion" }, // Tambien posee regla de string 
             ]
         },
         {
@@ -251,18 +257,27 @@ function depurarDatos() {
       { clave: "m jefe gabinete", valor: "ministerio jefe gabinete" },
       { clave: "m hacienda inf pub", valor: "ministerio hacienda publica del" },
       { clave: "m hacinfpub", valor: "ministerio hacienda publica del" },
+      { clave: "m p", valor: "ministerio produccion" },
       { clave: "m sa", valor: "ministerio salud" },
       { clave: "m seguridad", valor: "ministerio seguridad" },
       { clave: "m turismo", valor: "ministerio turismo" },
       { clave: "se act logisticas", valor: "secretaria actividades logisticas" },
       { clave: "se ambiente des sus", valor: "secretaria ambiente desarrollo sustentable" },
       { clave: "se comunicacion", valor: "secretaria comunicacion" },
+      { clave: "m rise", valor: "relaciones institucionales seguridad" },
       { clave: "se d", valor: "secretaria desarrollo" },
       { clave: "se deporte", valor: "secretaria deporte deportes" },
       { clave: "se general gob", valor: "secretaria general gobernacion" },
       { clave: "sg gobernacion", valor: "secretaria general gobernacion" },
+      { clave: "se transporte", valor: "secretaria transporte" },
+      { clave: "se estado transp", valor: "secretaria transporte" },
+      { clave: "se v", valor: "secretaria vivienda viviendas" },
+      { clave: "sec estado general legal tec", valor: "secretaria estado legal tecnica" },
       // Policia
       { clave: "complejo provincial penitenciario 1", valor: "complejo provincial servicio penitenciario 1" },
+      //Otros
+      { clave: "vice gobernacion", valor: "vicegobernacion vice gobernacion" }, // Tambien posee regla por organismo 'gobernacion'
+
     ];
 
     try {
@@ -308,6 +323,10 @@ function depurarDatos() {
             if (tipoDeOrganismo === 'bibliotecas') {
               texto = 'biblioteca ' + texto;
             }
+            
+            if (tipoDeOrganismo === 'terrazas del portezuelo') {
+              texto = 'terrasas terrasa de del portesuelo ' + texto;
+            }
 
             // Buscar el objeto de reemplazo correspondiente al tipo de organismo
 
@@ -334,7 +353,13 @@ function depurarDatos() {
 
         actualizarValoresEnHoja(datosUnicos, FILA_MIN, COL_NOMBRE);
 
+        // Busca e inserta prioridad
         buscarPrioridad();
+
+        // Renombra registros condicional = nInterno
+        buscarYReemplazar();
+
+        // Formato condicional a la hoja de instituciones
         formatoInstituciones();
     } catch (error) {
         Logger.log(error.message);
@@ -345,7 +370,6 @@ function depurarDatos() {
 // 4 - Remplazo nombres particulares
 function buscarYReemplazar() {
   const valoresABuscar = [
-    { valor: "", reemplazo: '' },
     { valor: "4073", reemplazo: 'ministerio desarrollo humano del direccion viviendas inscripciones san luis 4073' },
     { valor: "5960", reemplazo: 'hospital central ramon carillo mesa entrada turnos san luis 5960' },
     { valor: "5201", reemplazo: 'hospital san francisco mesa entrada turnos 5201' },
@@ -381,7 +405,7 @@ function crearHojaData() {
         const hojaDataExistente = spreadsheet.getSheetByName("Data");
         if (hojaDataExistente){
           spreadsheet.deleteSheet(hojaDataExistente);
-          Utilities.sleep(2000); // Agregar un retraso de 2 segundos
+          // Utilities.sleep(2000); // Agregar un retraso de 2 segundos
         }
         
         //Crea la hoja data y obtener la referencia
@@ -393,7 +417,7 @@ function crearHojaData() {
         }
 
         //Obteniendo informacion de istituciones
-        const data = hojaOriginal.getDataRange().getValues();
+        const data = hojaOriginal.getDataRange().offset(1, 0, hojaOriginal.getLastRow() - 1, hojaOriginal.getLastColumn()).getValues();
 
         // Insertar la cabecera
         const cabecera = ["prioridad", "interno", "institucion"];
