@@ -25,5 +25,9 @@ coverage/
 .DS_Store
 Thumbs.db
 
-.xls
-.xlsx
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.xltx
+*.xltm
