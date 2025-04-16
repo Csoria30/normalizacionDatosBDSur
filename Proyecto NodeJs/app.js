@@ -1,10 +1,20 @@
 import XLSX from 'xlsx';
 import fs from 'fs/promises';
 import axios from 'axios';
+import dotenv from 'dotenv';
 import { leerDatos, exportarAJson } from './helpers.js'
 
+//Variables env
+dotenv.config();
+const dbHost = process.env.DB_HOST;
+const dbPort = process.env.DB_PORT;
+const url =  `${dbHost}:${dbPort}/api/cargar-instituciones-sur`;
+
+
+
+//Get datos
 const data = await leerDatos();
-const url = 'http://192.168.64.93:9005/api/cargar-instituciones-sur';
+
 exportarAJson(data, 'Data.json');
 
 const config = {
