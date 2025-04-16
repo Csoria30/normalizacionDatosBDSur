@@ -24,3 +24,6 @@ coverage/
 # Otros archivos que no deben ser versionados
 .DS_Store
 Thumbs.db
+
+.xls
+.xlsx
