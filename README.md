@@ -15,7 +15,7 @@ Se trata del Sistema de Gestión de Reclamos y Base de Datos de Instituciones ut
 Inicialmente, se solicitó que los datos procesados fueran entregados en una hoja de cálculo de Google. Sin embargo, al notar que el procesamiento tardaba alrededor de 15 minutos, propuse implementar una solución en el backend para mejorar la eficiencia. Se me proporcionó un endpoint en el sistema de transcripción de voz para enviar los datos procesados en formato JSON.
 
 ### Implementación de Node.js
-Implementé una solución utilizando Node.js con JavaScript, lo que permitió reducir significativamente el tiempo de procesamiento a solo segundos. Los datos procesados fueron enviados al endpoint solicitado y posteriormente guardados en una base de datos.
+Implementé una solución utilizando Node.js, lo que permitió reducir significativamente el tiempo de procesamiento a solo segundos. Los datos procesados fueron enviados al endpoint solicitado y posteriormente guardados en una base de datos.
 
 ### Resultados
 La implementación de Node.js logró:
