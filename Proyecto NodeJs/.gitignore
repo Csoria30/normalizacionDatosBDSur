@@ -31,3 +31,6 @@ Thumbs.db
 *.xlsb
 *.xltx
 *.xltm
+
+# Ignorando exportacion
+*.json
