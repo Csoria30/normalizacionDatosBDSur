@@ -40,7 +40,7 @@ async function leerDatos() {
         const data_concatenarLocalidad = await concatenarLocalidad(data_remplazoEnNombre);
         const data_eliminandoObs = await eliminandoObs(data_concatenarLocalidad);
 
-        
+
         return data_eliminandoObs;
     } catch (error) {
         console.log(`Error al leer el archivo Excel: ${error}`);
@@ -256,6 +256,7 @@ async function remplazoEnNombre(data) {
             { clave: "m jefe gabinete", valor: "ministerio jefe gabinete" },
             { clave: "m hacienda inf pub", valor: "ministerio hacienda publica del" },
             { clave: "m hacinfpub", valor: "ministerio hacienda publica del" },
+            { clave: "m hac.inf.pub", valor: "ministerio hacienda publica del" },
             { clave: "m p", valor: "ministerio produccion" },
             { clave: "m sa", valor: "ministerio salud" },
             { clave: "m seguridad", valor: "ministerio seguridad" },

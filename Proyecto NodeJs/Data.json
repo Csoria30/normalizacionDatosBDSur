@@ -484,41 +484,6 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "bomberos voluntarios (fraga)",
-    "localidad": "fraga",
-    "nInterno": "5741",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "bomberos voluntarios (villa del carmen)",
-    "localidad": "villa del carmen",
-    "nInterno": "5842",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "bomberos voluntarios (batavia)",
-    "localidad": "batavia",
-    "nInterno": "8711",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "bomberos voluntarios (batavia)",
-    "localidad": "batavia",
-    "nInterno": "4352",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "bomberos voluntarios (papagayos)",
-    "localidad": "papagayos",
-    "nInterno": "5087",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
     "nombre": "bomberos voluntarios (villa gral roca los manantiales)",
     "localidad": "villa gral roca los manantiales",
     "nInterno": "6856",
@@ -627,6 +592,41 @@
     "nombre": "bomberos voluntarios (los cajones)",
     "localidad": "los cajones",
     "nInterno": "6873",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "bomberos voluntarios (fraga)",
+    "localidad": "fraga",
+    "nInterno": "5741",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "bomberos voluntarios (villa del carmen)",
+    "localidad": "villa del carmen",
+    "nInterno": "5842",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "bomberos voluntarios (batavia)",
+    "localidad": "batavia",
+    "nInterno": "8711",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "bomberos voluntarios (batavia)",
+    "localidad": "batavia",
+    "nInterno": "4352",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "bomberos voluntarios (papagayos)",
+    "localidad": "papagayos",
+    "nInterno": "5087",
     "prioridad": null
   },
   {
@@ -1317,6 +1317,20 @@
   },
   {
     "organismo": "entes de gobierno",
+    "nombre": "centro  mediacion (juana koslay)",
+    "localidad": "juana koslay",
+    "nInterno": "8068",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "centro  mediacion (la punta)",
+    "localidad": "la punta",
+    "nInterno": "6642",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
     "nombre": "centro  mediacion (renca)",
     "localidad": "renca",
     "nInterno": "0770",
@@ -1334,20 +1348,6 @@
     "nombre": "centro  mediacion (san luis)",
     "localidad": "san luis",
     "nInterno": "9000*",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "centro  mediacion (juana koslay)",
-    "localidad": "juana koslay",
-    "nInterno": "8068",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "centro  mediacion (la punta)",
-    "localidad": "la punta",
-    "nInterno": "6642",
     "prioridad": null
   },
   {
@@ -1394,20 +1394,6 @@
   },
   {
     "organismo": "salud",
-    "nombre": "centro salud sala salita caps  (cazador)",
-    "localidad": "cazador",
-    "nInterno": "0425",
-    "prioridad": null
-  },
-  {
-    "organismo": "salud",
-    "nombre": "centro salud sala salita caps  (el barrial)",
-    "localidad": "el barrial",
-    "nInterno": "0416",
-    "prioridad": null
-  },
-  {
-    "organismo": "salud",
     "nombre": "centro salud sala salita caps  (el cadillo)",
     "localidad": "el cadillo",
     "nInterno": "4317",
@@ -1418,6 +1404,20 @@
     "nombre": "centro salud sala salita caps  (desaguadero)",
     "localidad": "desaguadero",
     "nInterno": "6121",
+    "prioridad": null
+  },
+  {
+    "organismo": "salud",
+    "nombre": "centro salud sala salita caps  (cazador)",
+    "localidad": "cazador",
+    "nInterno": "0425",
+    "prioridad": null
+  },
+  {
+    "organismo": "salud",
+    "nombre": "centro salud sala salita caps  (el barrial)",
+    "localidad": "el barrial",
+    "nInterno": "0416",
     "prioridad": null
   },
   {
@@ -1719,7 +1719,7 @@
     "nombre": "centro salud sala salita caps oncologico integral direccion administracion. (san luis)",
     "localidad": "san luis",
     "nInterno": "5955",
-    "prioridad": null
+    "prioridad": "*****"
   },
   {
     "organismo": "salud",
@@ -1733,34 +1733,6 @@
     "nombre": "centro salud sala salita caps n 13 maestros puntanos  amppya dirreccion (san luis)",
     "localidad": "san luis",
     "nInterno": "8552",
-    "prioridad": null
-  },
-  {
-    "organismo": "salud",
-    "nombre": "centro salud sala salita caps (juan jorba)",
-    "localidad": "juan jorba",
-    "nInterno": "4390",
-    "prioridad": null
-  },
-  {
-    "organismo": "salud",
-    "nombre": "centro salud sala salita caps (san jose del morro)",
-    "localidad": "san jose del morro",
-    "nInterno": "5477",
-    "prioridad": null
-  },
-  {
-    "organismo": "salud",
-    "nombre": "centro salud sala salita caps (los chanares)",
-    "localidad": "los chanares",
-    "nInterno": "6768",
-    "prioridad": null
-  },
-  {
-    "organismo": "salud",
-    "nombre": "centro salud sala salita caps (quebrada de san vicente)",
-    "localidad": "quebrada de san vicente",
-    "nInterno": "4827",
     "prioridad": null
   },
   {
@@ -1901,6 +1873,34 @@
     "nombre": "centro salud sala salita caps (beazley)",
     "localidad": "beazley",
     "nInterno": "5929",
+    "prioridad": null
+  },
+  {
+    "organismo": "salud",
+    "nombre": "centro salud sala salita caps (juan jorba)",
+    "localidad": "juan jorba",
+    "nInterno": "4390",
+    "prioridad": null
+  },
+  {
+    "organismo": "salud",
+    "nombre": "centro salud sala salita caps (san jose del morro)",
+    "localidad": "san jose del morro",
+    "nInterno": "5477",
+    "prioridad": null
+  },
+  {
+    "organismo": "salud",
+    "nombre": "centro salud sala salita caps (los chanares)",
+    "localidad": "los chanares",
+    "nInterno": "6768",
+    "prioridad": null
+  },
+  {
+    "organismo": "salud",
+    "nombre": "centro salud sala salita caps (quebrada de san vicente)",
+    "localidad": "quebrada de san vicente",
+    "nInterno": "4827",
     "prioridad": null
   },
   {
@@ -2122,13 +2122,6 @@
   },
   {
     "organismo": "salud",
-    "nombre": "centro salud sala salita caps administracion (balde)",
-    "localidad": "balde",
-    "nInterno": "4267",
-    "prioridad": null
-  },
-  {
-    "organismo": "salud",
     "nombre": "centro salud sala salita caps administracion (san jose del morro)",
     "localidad": "san jose del morro",
     "nInterno": "5410",
@@ -2164,9 +2157,9 @@
   },
   {
     "organismo": "salud",
-    "nombre": "centro salud sala salita caps consultorio (saladillo)",
-    "localidad": "saladillo",
-    "nInterno": "5280",
+    "nombre": "centro salud sala salita caps administracion (balde)",
+    "localidad": "balde",
+    "nInterno": "4267",
     "prioridad": null
   },
   {
@@ -2174,6 +2167,13 @@
     "nombre": "centro salud sala salita caps consultorio (villa larca)",
     "localidad": "villa larca",
     "nInterno": "5324",
+    "prioridad": null
+  },
+  {
+    "organismo": "salud",
+    "nombre": "centro salud sala salita caps consultorio (saladillo)",
+    "localidad": "saladillo",
+    "nInterno": "5280",
     "prioridad": null
   },
   {
@@ -2465,20 +2465,6 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "cipe sipe centro emision (fortuna)",
-    "localidad": "fortuna",
-    "nInterno": "5924",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "cipe sipe centro emision (balde)",
-    "localidad": "balde",
-    "nInterno": "0336",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
     "nombre": "cipe sipe centro emision (justo daract)",
     "localidad": "justo daract",
     "nInterno": "4867",
@@ -2489,6 +2475,20 @@
     "nombre": "cipe sipe centro emision (juana koslay)",
     "localidad": "juana koslay",
     "nInterno": "5942",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "cipe sipe centro emision (fortuna)",
+    "localidad": "fortuna",
+    "nInterno": "5924",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "cipe sipe centro emision (balde)",
+    "localidad": "balde",
+    "nInterno": "0336",
     "prioridad": null
   },
   {
@@ -2649,14 +2649,14 @@
     "organismo": "entes de gobierno",
     "nombre": "cipe sipe centro emision san martin (san martin)",
     "localidad": "san martin",
-    "nInterno": "4376",
+    "nInterno": "8206",
     "prioridad": null
   },
   {
     "organismo": "entes de gobierno",
     "nombre": "cipe sipe centro emision san martin (san martin)",
     "localidad": "san martin",
-    "nInterno": "8206",
+    "nInterno": "4376",
     "prioridad": null
   },
   {
@@ -2964,13 +2964,6 @@
     "organismo": "policia",
     "nombre": "complejo provincial penitenciario 2 pampa  salinas pabellon (la botija)",
     "localidad": "la botija",
-    "nInterno": "8757",
-    "prioridad": null
-  },
-  {
-    "organismo": "policia",
-    "nombre": "complejo provincial penitenciario 2 pampa  salinas pabellon (la botija)",
-    "localidad": "la botija",
     "nInterno": "8715",
     "prioridad": null
   },
@@ -2986,6 +2979,13 @@
     "nombre": "complejo provincial penitenciario 2 pampa  salinas pabellon (la botija)",
     "localidad": "la botija",
     "nInterno": "8747",
+    "prioridad": null
+  },
+  {
+    "organismo": "policia",
+    "nombre": "complejo provincial penitenciario 2 pampa  salinas pabellon (la botija)",
+    "localidad": "la botija",
+    "nInterno": "8757",
     "prioridad": null
   },
   {
@@ -3691,13 +3691,6 @@
   },
   {
     "organismo": "policia",
-    "nombre": "dg 11 bomberos cuartel (san pablo)",
-    "localidad": "san pablo",
-    "nInterno": "4360",
-    "prioridad": null
-  },
-  {
-    "organismo": "policia",
     "nombre": "dg 11 bomberos cuartel (merlo)",
     "localidad": "merlo",
     "nInterno": "5537",
@@ -3729,6 +3722,13 @@
     "nombre": "dg 11 bomberos cuartel (union)",
     "localidad": "union",
     "nInterno": "6610",
+    "prioridad": null
+  },
+  {
+    "organismo": "policia",
+    "nombre": "dg 11 bomberos cuartel (san pablo)",
+    "localidad": "san pablo",
+    "nInterno": "4360",
     "prioridad": null
   },
   {
@@ -3887,16 +3887,16 @@
   },
   {
     "organismo": "policia",
-    "nombre": "dg 13 investigaciones departamento ddi (la toma)",
-    "localidad": "la toma",
-    "nInterno": "5363",
+    "nombre": "dg 13 investigaciones departamento ddi (villa mercedes)",
+    "localidad": "villa mercedes",
+    "nInterno": "5930",
     "prioridad": null
   },
   {
     "organismo": "policia",
-    "nombre": "dg 13 investigaciones departamento ddi (villa mercedes)",
-    "localidad": "villa mercedes",
-    "nInterno": "5930",
+    "nombre": "dg 13 investigaciones departamento ddi (la toma)",
+    "localidad": "la toma",
+    "nInterno": "5363",
     "prioridad": null
   },
   {
@@ -3935,20 +3935,6 @@
     "prioridad": null
   },
   {
-    "organismo": "policia",
-    "nombre": "dg 6 policia caminera  seguridad vial (quines)",
-    "localidad": "quines",
-    "nInterno": "0000",
-    "prioridad": null
-  },
-  {
-    "organismo": "policia",
-    "nombre": "dg 6 policia caminera  seguridad vial (villa mercedes)",
-    "localidad": "villa mercedes",
-    "nInterno": "5738",
-    "prioridad": null
-  },
-  {
     "organismo": "gobernacion",
     "nombre": "dg 6 policia caminera  seguridad vial (san luis)",
     "localidad": "san luis",
@@ -3974,6 +3960,20 @@
     "nombre": "dg 6 policia caminera  seguridad vial (naschel)",
     "localidad": "naschel",
     "nInterno": "5823",
+    "prioridad": null
+  },
+  {
+    "organismo": "policia",
+    "nombre": "dg 6 policia caminera  seguridad vial (quines)",
+    "localidad": "quines",
+    "nInterno": "0000",
+    "prioridad": null
+  },
+  {
+    "organismo": "policia",
+    "nombre": "dg 6 policia caminera  seguridad vial (villa mercedes)",
+    "localidad": "villa mercedes",
+    "nInterno": "5738",
     "prioridad": null
   },
   {
@@ -4264,41 +4264,6 @@
     "prioridad": null
   },
   {
-    "organismo": "salud",
-    "nombre": "dosep (papagayos)",
-    "localidad": "papagayos",
-    "nInterno": "4318",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "dosep (santa rosa del conlara)",
-    "localidad": "santa rosa del conlara",
-    "nInterno": "4856",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "dosep (nueva galia)",
-    "localidad": "nueva galia",
-    "nInterno": "8819",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "dosep (villa larca)",
-    "localidad": "villa larca",
-    "nInterno": "5344",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "dosep (san martin)",
-    "localidad": "san martin",
-    "nInterno": "6293",
-    "prioridad": null
-  },
-  {
     "organismo": "entes de gobierno",
     "nombre": "dosep (concaran)",
     "localidad": "concaran",
@@ -4380,6 +4345,41 @@
     "nombre": "dosep (lujan)",
     "localidad": "lujan",
     "nInterno": "4433",
+    "prioridad": null
+  },
+  {
+    "organismo": "salud",
+    "nombre": "dosep (papagayos)",
+    "localidad": "papagayos",
+    "nInterno": "4318",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "dosep (santa rosa del conlara)",
+    "localidad": "santa rosa del conlara",
+    "nInterno": "4856",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "dosep (nueva galia)",
+    "localidad": "nueva galia",
+    "nInterno": "8819",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "dosep (villa larca)",
+    "localidad": "villa larca",
+    "nInterno": "5344",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "dosep (san martin)",
+    "localidad": "san martin",
+    "nInterno": "6293",
     "prioridad": null
   },
   {
@@ -5542,14 +5542,14 @@
     "organismo": "educativos",
     "nombre": "escuela colegio educativo 186 granadero juan miguel alcaraz (balcarce)",
     "localidad": "balcarce",
-    "nInterno": "5375",
+    "nInterno": "6600",
     "prioridad": null
   },
   {
     "organismo": "educativos",
     "nombre": "escuela colegio educativo 186 granadero juan miguel alcaraz (balcarce)",
     "localidad": "balcarce",
-    "nInterno": "6600",
+    "nInterno": "5375",
     "prioridad": null
   },
   {
@@ -8781,13 +8781,6 @@
   },
   {
     "organismo": "educativos",
-    "nombre": "escuela colegio educativo publica digital (fraga)",
-    "localidad": "fraga",
-    "nInterno": "0400",
-    "prioridad": null
-  },
-  {
-    "organismo": "educativos",
     "nombre": "escuela colegio educativo publica digital (san martin)",
     "localidad": "san martin",
     "nInterno": "8211",
@@ -8812,6 +8805,13 @@
     "nombre": "escuela colegio educativo publica digital (candelaria)",
     "localidad": "candelaria",
     "nInterno": "0329",
+    "prioridad": null
+  },
+  {
+    "organismo": "educativos",
+    "nombre": "escuela colegio educativo publica digital (fraga)",
+    "localidad": "fraga",
+    "nInterno": "0400",
     "prioridad": null
   },
   {
@@ -9455,14 +9455,14 @@
     "organismo": "gobernacion",
     "nombre": "fiscalia  estado administrativa (san luis)",
     "localidad": "san luis",
-    "nInterno": "1133",
+    "nInterno": "1131",
     "prioridad": null
   },
   {
     "organismo": "gobernacion",
     "nombre": "fiscalia  estado administrativa (san luis)",
     "localidad": "san luis",
-    "nInterno": "1131",
+    "nInterno": "1133",
     "prioridad": null
   },
   {
@@ -9922,13 +9922,6 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "honorable concejo deliberante (el volcan)",
-    "localidad": "el volcan",
-    "nInterno": "5387",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
     "nombre": "honorable concejo deliberante (juana koslay)",
     "localidad": "juana koslay",
     "nInterno": "4018",
@@ -9981,6 +9974,13 @@
     "nombre": "honorable concejo deliberante (juana koslay)",
     "localidad": "juana koslay",
     "nInterno": "5535",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "honorable concejo deliberante (el volcan)",
+    "localidad": "el volcan",
+    "nInterno": "5387",
     "prioridad": null
   },
   {
@@ -12269,14 +12269,14 @@
     "organismo": "entes de gobierno",
     "nombre": "junta  clasificacion docente docentes (san luis)",
     "localidad": "san luis",
-    "nInterno": "1198",
+    "nInterno": "1194",
     "prioridad": null
   },
   {
     "organismo": "entes de gobierno",
     "nombre": "junta  clasificacion docente docentes (san luis)",
     "localidad": "san luis",
-    "nInterno": "1194",
+    "nInterno": "1198",
     "prioridad": null
   },
   {
@@ -12291,6 +12291,13 @@
     "nombre": "juzgado paz lego nogoli (nogoli)",
     "localidad": "nogoli",
     "nInterno": "4329",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "juzgado  faltas (juana koslay)",
+    "localidad": "juana koslay",
+    "nInterno": "8070",
     "prioridad": null
   },
   {
@@ -12319,13 +12326,6 @@
     "nombre": "juzgado  faltas (buena esperanza)",
     "localidad": "buena esperanza",
     "nInterno": "8259",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "juzgado  faltas (juana koslay)",
-    "localidad": "juana koslay",
-    "nInterno": "8070",
     "prioridad": null
   },
   {
@@ -12379,6 +12379,13 @@
   },
   {
     "organismo": "entes de gobierno",
+    "nombre": "juzgado  paz (juan llerena)",
+    "localidad": "juan llerena",
+    "nInterno": "8077",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
     "nombre": "juzgado  paz (buena esperanza)",
     "localidad": "buena esperanza",
     "nInterno": "5188",
@@ -12396,13 +12403,6 @@
     "nombre": "juzgado  paz (los cajones)",
     "localidad": "los cajones",
     "nInterno": "*0000",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "juzgado  paz (juan llerena)",
-    "localidad": "juan llerena",
-    "nInterno": "8077",
     "prioridad": null
   },
   {
@@ -13386,17 +13386,17 @@
     "prioridad": null
   },
   {
-    "organismo": "terrazas del portezuelo",
-    "nombre": "ministerio desarrollo humano del direccion viviendas regularizacion dominial (san luis)",
-    "localidad": "san luis",
-    "nInterno": "9360",
-    "prioridad": null
-  },
-  {
     "organismo": "entes de gobierno",
     "nombre": "ministerio desarrollo humano del direccion viviendas regularizacion dominial (villa mercedes)",
     "localidad": "villa mercedes",
     "nInterno": "4079",
+    "prioridad": null
+  },
+  {
+    "organismo": "terrazas del portezuelo",
+    "nombre": "ministerio desarrollo humano del direccion viviendas regularizacion dominial (san luis)",
+    "localidad": "san luis",
+    "nInterno": "9360",
     "prioridad": null
   },
   {
@@ -13653,16 +13653,16 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "ministerio desarrollo humano del derechos  garantias constitucionales (concaran)",
-    "localidad": "concaran",
-    "nInterno": "0431",
+    "nombre": "ministerio desarrollo humano del derechos  garantias constitucionales (san luis)",
+    "localidad": "san luis",
+    "nInterno": "1419",
     "prioridad": null
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "ministerio desarrollo humano del derechos  garantias constitucionales (san luis)",
-    "localidad": "san luis",
-    "nInterno": "1419",
+    "nombre": "ministerio desarrollo humano del derechos  garantias constitucionales (concaran)",
+    "localidad": "concaran",
+    "nInterno": "0431",
     "prioridad": null
   },
   {
@@ -13757,18 +13757,18 @@
     "prioridad": null
   },
   {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio desarrollo humano del mesa  entrada (justo daract)",
-    "localidad": "justo daract",
-    "nInterno": "0325",
-    "prioridad": null
-  },
-  {
     "organismo": "terrazas del portezuelo",
     "nombre": "ministerio desarrollo humano del mesa  entrada (san luis)",
     "localidad": "san luis",
     "nInterno": "3465",
     "prioridad": "*****"
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "ministerio desarrollo humano del mesa  entrada (justo daract)",
+    "localidad": "justo daract",
+    "nInterno": "0325",
+    "prioridad": null
   },
   {
     "organismo": "entes de gobierno",
@@ -13792,17 +13792,17 @@
     "prioridad": null
   },
   {
-    "organismo": "terrazas del portezuelo",
-    "nombre": "ministerio desarrollo humano del prensa (san luis)",
-    "localidad": "san luis",
-    "nInterno": "3640",
-    "prioridad": null
-  },
-  {
     "organismo": "entes de gobierno",
     "nombre": "ministerio desarrollo humano del prensa (san luis)",
     "localidad": "san luis",
     "nInterno": "4011",
+    "prioridad": null
+  },
+  {
+    "organismo": "terrazas del portezuelo",
+    "nombre": "ministerio desarrollo humano del prensa (san luis)",
+    "localidad": "san luis",
+    "nInterno": "3640",
     "prioridad": null
   },
   {
@@ -14003,6 +14003,13 @@
   },
   {
     "organismo": "entes de gobierno",
+    "nombre": "ministerio desarrollo productivo del programa control  erradicacion mosca moscas fruto frutos (merlo)",
+    "localidad": "merlo",
+    "nInterno": "5330",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
     "nombre": "ministerio desarrollo productivo del programa control  erradicacion mosca moscas fruto frutos (la toma)",
     "localidad": "la toma",
     "nInterno": "8288",
@@ -14020,13 +14027,6 @@
     "nombre": "ministerio desarrollo productivo del programa control  erradicacion mosca moscas fruto frutos (quines)",
     "localidad": "quines",
     "nInterno": "8372",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio desarrollo productivo del programa control  erradicacion mosca moscas fruto frutos (merlo)",
-    "localidad": "merlo",
-    "nInterno": "5330",
     "prioridad": null
   },
   {
@@ -14354,16 +14354,16 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "ministerio educacion junta  clasificacion docente docentes (villa mercedes)",
-    "localidad": "villa mercedes",
-    "nInterno": "8273",
+    "nombre": "ministerio educacion junta  clasificacion docente docentes (concaran)",
+    "localidad": "concaran",
+    "nInterno": "4123",
     "prioridad": null
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "ministerio educacion junta  clasificacion docente docentes (concaran)",
-    "localidad": "concaran",
-    "nInterno": "4123",
+    "nombre": "ministerio educacion junta  clasificacion docente docentes (villa mercedes)",
+    "localidad": "villa mercedes",
+    "nInterno": "8273",
     "prioridad": null
   },
   {
@@ -15243,16 +15243,16 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del programa defensa  consumidor lealtad comercial (merlo)",
-    "localidad": "merlo",
-    "nInterno": "4417",
+    "nombre": "ministerio gobierno del programa defensa  consumidor lealtad comercial (san luis)",
+    "localidad": "san luis",
+    "nInterno": "1467",
     "prioridad": null
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del programa defensa  consumidor lealtad comercial (san luis)",
-    "localidad": "san luis",
-    "nInterno": "1467",
+    "nombre": "ministerio gobierno del programa defensa  consumidor lealtad comercial (merlo)",
+    "localidad": "merlo",
+    "nInterno": "4417",
     "prioridad": null
   },
   {
@@ -15271,6 +15271,13 @@
   },
   {
     "organismo": "entes de gobierno",
+    "nombre": "ministerio gobierno del programa defensa  consumidor mesa entrada (merlo)",
+    "localidad": "merlo",
+    "nInterno": "4137",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
     "nombre": "ministerio gobierno del programa defensa  consumidor mesa entrada (villa mercedes)",
     "localidad": "villa mercedes",
     "nInterno": "4117",
@@ -15281,13 +15288,6 @@
     "nombre": "ministerio gobierno del programa defensa  consumidor mesa entrada (villa mercedes)",
     "localidad": "villa mercedes",
     "nInterno": "4172",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del programa defensa  consumidor mesa entrada (merlo)",
-    "localidad": "merlo",
-    "nInterno": "4137",
     "prioridad": null
   },
   {
@@ -15400,97 +15400,6 @@
     "nombre": "ministerio gobierno del registro civil juridica (san luis)",
     "localidad": "san luis",
     "nInterno": "1176",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del registro civil mesa  entrada (las chacras)",
-    "localidad": "las chacras",
-    "nInterno": "4294",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del registro civil mesa  entrada (potrero de los funes)",
-    "localidad": "potrero de los funes",
-    "nInterno": "5589",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del registro civil mesa  entrada (la punilla)",
-    "localidad": "la punilla",
-    "nInterno": "6670",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del registro civil mesa  entrada (lujan)",
-    "localidad": "lujan",
-    "nInterno": "4358",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del registro civil mesa  entrada (villa de la quebrada)",
-    "localidad": "villa de la quebrada",
-    "nInterno": "4278",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del registro civil mesa  entrada (union)",
-    "localidad": "union",
-    "nInterno": "4483",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del registro civil mesa  entrada (desaguadero)",
-    "localidad": "desaguadero",
-    "nInterno": "8815 8813",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del registro civil mesa  entrada (saladillo)",
-    "localidad": "saladillo",
-    "nInterno": "0771",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del registro civil mesa  entrada (la vertiente)",
-    "localidad": "la vertiente",
-    "nInterno": "8559",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del registro civil mesa  entrada (papagayos)",
-    "localidad": "papagayos",
-    "nInterno": "8662",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del registro civil mesa  entrada (carolina)",
-    "localidad": "carolina",
-    "nInterno": "5782",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del registro civil mesa  entrada (navia)",
-    "localidad": "navia",
-    "nInterno": "0405",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio gobierno del registro civil mesa  entrada (lujan)",
-    "localidad": "lujan",
-    "nInterno": "6985",
     "prioridad": null
   },
   {
@@ -15866,6 +15775,97 @@
   },
   {
     "organismo": "entes de gobierno",
+    "nombre": "ministerio gobierno del registro civil mesa  entrada (las chacras)",
+    "localidad": "las chacras",
+    "nInterno": "4294",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "ministerio gobierno del registro civil mesa  entrada (potrero de los funes)",
+    "localidad": "potrero de los funes",
+    "nInterno": "5589",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "ministerio gobierno del registro civil mesa  entrada (la punilla)",
+    "localidad": "la punilla",
+    "nInterno": "6670",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "ministerio gobierno del registro civil mesa  entrada (lujan)",
+    "localidad": "lujan",
+    "nInterno": "4358",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "ministerio gobierno del registro civil mesa  entrada (villa de la quebrada)",
+    "localidad": "villa de la quebrada",
+    "nInterno": "4278",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "ministerio gobierno del registro civil mesa  entrada (union)",
+    "localidad": "union",
+    "nInterno": "4483",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "ministerio gobierno del registro civil mesa  entrada (desaguadero)",
+    "localidad": "desaguadero",
+    "nInterno": "8815 8813",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "ministerio gobierno del registro civil mesa  entrada (saladillo)",
+    "localidad": "saladillo",
+    "nInterno": "0771",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "ministerio gobierno del registro civil mesa  entrada (la vertiente)",
+    "localidad": "la vertiente",
+    "nInterno": "8559",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "ministerio gobierno del registro civil mesa  entrada (papagayos)",
+    "localidad": "papagayos",
+    "nInterno": "8662",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "ministerio gobierno del registro civil mesa  entrada (carolina)",
+    "localidad": "carolina",
+    "nInterno": "5782",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "ministerio gobierno del registro civil mesa  entrada (navia)",
+    "localidad": "navia",
+    "nInterno": "0405",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "ministerio gobierno del registro civil mesa  entrada (lujan)",
+    "localidad": "lujan",
+    "nInterno": "6985",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
     "nombre": "ministerio gobierno del registro civil mesa  entrada privada (villa mercedes)",
     "localidad": "villa mercedes",
     "nInterno": "4457",
@@ -16090,185 +16090,178 @@
   },
   {
     "organismo": "gobernacion",
-    "nombre": "m hac.inf.pub programa. asuntos legales gestion  tierras (san luis)",
+    "nombre": "ministerio hacienda publica del programa. asuntos legales gestion  tierras (san luis)",
     "localidad": "san luis",
     "nInterno": "1164",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub control  seguimiento (san luis)",
+    "nombre": "ministerio hacienda publica del control  seguimiento (san luis)",
     "localidad": "san luis",
     "nInterno": "3353",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub sub. programa control  ausentismo familiares a cargo (san luis)",
+    "nombre": "ministerio hacienda publica del sub. programa control  ausentismo familiares a cargo (san luis)",
     "localidad": "san luis",
     "nInterno": "3133",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub contaduria general programa. informatico sistema contable (san luis)",
+    "nombre": "ministerio hacienda publica del contaduria general programa. informatico sistema contable (san luis)",
     "localidad": "san luis",
     "nInterno": "3214",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub contaduria general programa. informatico sistema contable (san luis)",
+    "nombre": "ministerio hacienda publica del contaduria general programa. informatico sistema contable (san luis)",
     "localidad": "san luis",
     "nInterno": "3480",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub agencia financiera  estampillas (san luis)",
+    "nombre": "ministerio hacienda publica del agencia financiera  estampillas (san luis)",
     "localidad": "san luis",
     "nInterno": "3398",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub area contaduria control interno ministerio salud mesa  entrada (san luis)",
+    "nombre": "ministerio hacienda publica del area contaduria control interno salud mesa  entrada (san luis)",
     "localidad": "san luis",
     "nInterno": "3216",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub contaduria general area previsional (san luis)",
+    "nombre": "ministerio hacienda publica del contaduria general area previsional (san luis)",
     "localidad": "san luis",
     "nInterno": "3238",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub contaduria general control interno (san luis)",
+    "nombre": "ministerio hacienda publica del contaduria general control interno (san luis)",
     "localidad": "san luis",
     "nInterno": "3128",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub contaduria general patrimonios (san luis)",
+    "nombre": "ministerio hacienda publica del contaduria general patrimonios (san luis)",
     "localidad": "san luis",
     "nInterno": "3229",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub contaduria general privada mesa  entrada (san luis)",
+    "nombre": "ministerio hacienda publica del contaduria general privada mesa  entrada (san luis)",
     "localidad": "san luis",
     "nInterno": "3129",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub contaduria general sub programa responsable area balances rendicion  cuentas (san luis)",
+    "nombre": "ministerio hacienda publica del contaduria general sub programa responsable area balances rendicion  cuentas (san luis)",
     "localidad": "san luis",
     "nInterno": "3130",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub direccion  arquitectura archivo (san luis)",
+    "nombre": "ministerio hacienda publica del direccion  arquitectura archivo (san luis)",
     "localidad": "san luis",
     "nInterno": "3723",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub programa coordinacion  seguimiento obra publica sub control certificados sistematizacion (san luis)",
+    "nombre": "ministerio hacienda publica del programa coordinacion  seguimiento obra sub control certificados sistematizacion (san luis)",
     "localidad": "san luis",
     "nInterno": "3279",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub programa. control  gastos sub. tarifados credito para internos (san luis)",
+    "nombre": "ministerio hacienda publica del programa. control  gastos sub. tarifados credito para internos (san luis)",
     "localidad": "san luis",
     "nInterno": "3109",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub secretaria  estado finanzas privada (san luis)",
+    "nombre": "ministerio hacienda publica del secretaria  estado finanzas privada (san luis)",
     "localidad": "san luis",
     "nInterno": "3156",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub sub programa control interno jefe (san luis)",
+    "nombre": "ministerio hacienda publica del sub programa control interno jefe (san luis)",
     "localidad": "san luis",
     "nInterno": "3207",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub sub programa docentes designaciones por creacion (san luis)",
+    "nombre": "ministerio hacienda publica del sub programa docentes designaciones por creacion (san luis)",
     "localidad": "san luis",
     "nInterno": "3579",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub sub. programa.  control gastos repuestos mantenimiento movilidad maquinarias (san luis)",
+    "nombre": "ministerio hacienda publica del sub. programa.  control gastos repuestos mantenimiento movilidad maquinarias (san luis)",
     "localidad": "san luis",
     "nInterno": "3468",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub tesoreria control  expediente liquidacion proveedores (san luis)",
+    "nombre": "ministerio hacienda publica del tesoreria control  expediente liquidacion proveedores (san luis)",
     "localidad": "san luis",
     "nInterno": "3213",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub tesoreria planes sociales (san luis)",
+    "nombre": "ministerio hacienda publica del tesoreria planes sociales (san luis)",
     "localidad": "san luis",
     "nInterno": "3396",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub tesoreria sub. programa. pagos (san luis)",
+    "nombre": "ministerio hacienda publica del tesoreria sub. programa. pagos (san luis)",
     "localidad": "san luis",
     "nInterno": "3111",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub tesoreria sub. programa. pagos  dosep tarifados (san luis)",
+    "nombre": "ministerio hacienda publica del tesoreria sub. programa. pagos  dosep tarifados (san luis)",
     "localidad": "san luis",
     "nInterno": "3212",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub tesoreria sueldos  subsidios (san luis)",
+    "nombre": "ministerio hacienda publica del tesoreria sueldos  subsidios (san luis)",
     "localidad": "san luis",
     "nInterno": "3118",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub direccion general  infraestructura publica (san luis)",
+    "nombre": "ministerio hacienda publica del direccion general  infraestructura (san luis)",
     "localidad": "san luis",
     "nInterno": "3072",
     "prioridad": null
-  },
-  {
-    "organismo": "terrazas del portezuelo",
-    "nombre": "m hac.inf.pub. contaduria general mesa  entrada (san luis)",
-    "localidad": "san luis",
-    "nInterno": "3126",
-    "prioridad": "*****"
   },
   {
     "organismo": "terrazas del portezuelo",
@@ -16353,6 +16346,13 @@
     "localidad": "san luis",
     "nInterno": "3093",
     "prioridad": null
+  },
+  {
+    "organismo": "terrazas del portezuelo",
+    "nombre": "ministerio hacienda publica del contaduria general mesa  entrada (san luis)",
+    "localidad": "san luis",
+    "nInterno": "3126",
+    "prioridad": "*****"
   },
   {
     "organismo": "terrazas del portezuelo",
@@ -16673,14 +16673,14 @@
     "organismo": "terrazas del portezuelo",
     "nombre": "ministerio hacienda publica del direccion recursos humanos docentes mesa  entrada (san luis)",
     "localidad": "san luis",
-    "nInterno": "3136",
+    "nInterno": "3135",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
     "nombre": "ministerio hacienda publica del direccion recursos humanos docentes mesa  entrada (san luis)",
     "localidad": "san luis",
-    "nInterno": "3135",
+    "nInterno": "3136",
     "prioridad": null
   },
   {
@@ -16729,6 +16729,13 @@
     "organismo": "terrazas del portezuelo",
     "nombre": "ministerio hacienda publica del direccion recursos humanos gestion previsional jubilacion  retiros seguridad (san luis)",
     "localidad": "san luis",
+    "nInterno": "3138",
+    "prioridad": "*****"
+  },
+  {
+    "organismo": "terrazas del portezuelo",
+    "nombre": "ministerio hacienda publica del direccion recursos humanos gestion previsional jubilacion  retiros seguridad (san luis)",
+    "localidad": "san luis",
     "nInterno": "3627",
     "prioridad": "*****"
   },
@@ -16737,13 +16744,6 @@
     "nombre": "ministerio hacienda publica del direccion recursos humanos gestion previsional jubilacion  retiros seguridad (san luis)",
     "localidad": "san luis",
     "nInterno": "3479",
-    "prioridad": "*****"
-  },
-  {
-    "organismo": "terrazas del portezuelo",
-    "nombre": "ministerio hacienda publica del direccion recursos humanos gestion previsional jubilacion  retiros seguridad (san luis)",
-    "localidad": "san luis",
-    "nInterno": "3138",
     "prioridad": "*****"
   },
   {
@@ -16939,14 +16939,14 @@
     "organismo": "terrazas del portezuelo",
     "nombre": "ministerio hacienda publica del ministro (san luis)",
     "localidad": "san luis",
-    "nInterno": "3631",
+    "nInterno": "3632",
     "prioridad": null
   },
   {
     "organismo": "terrazas del portezuelo",
     "nombre": "ministerio hacienda publica del ministro (san luis)",
     "localidad": "san luis",
-    "nInterno": "3632",
+    "nInterno": "3631",
     "prioridad": null
   },
   {
@@ -17979,6 +17979,13 @@
     "prioridad": null
   },
   {
+    "organismo": "terrazas del portezuelo",
+    "nombre": "ministerio salud direccion atencion primaria aps (san luis)",
+    "localidad": "san luis",
+    "nInterno": "3102",
+    "prioridad": null
+  },
+  {
     "organismo": "salud",
     "nombre": "ministerio salud direccion atencion primaria aps (villa mercedes)",
     "localidad": "villa mercedes",
@@ -18004,13 +18011,6 @@
     "nombre": "ministerio salud direccion atencion primaria aps (villa mercedes)",
     "localidad": "villa mercedes",
     "nInterno": "5357",
-    "prioridad": null
-  },
-  {
-    "organismo": "terrazas del portezuelo",
-    "nombre": "ministerio salud direccion atencion primaria aps (san luis)",
-    "localidad": "san luis",
-    "nInterno": "3102",
     "prioridad": null
   },
   {
@@ -18584,14 +18584,14 @@
     "organismo": "entes de gobierno",
     "nombre": "ministerio turismo cultura museo historico  san luis muhsal mesa entrada (san luis)",
     "localidad": "san luis",
-    "nInterno": "8337",
+    "nInterno": "8326",
     "prioridad": "*****"
   },
   {
     "organismo": "entes de gobierno",
     "nombre": "ministerio turismo cultura museo historico  san luis muhsal mesa entrada (san luis)",
     "localidad": "san luis",
-    "nInterno": "8326",
+    "nInterno": "8337",
     "prioridad": "*****"
   },
   {
@@ -18717,14 +18717,14 @@
     "organismo": "entes de gobierno",
     "nombre": "ministerio turismo cultura contable (san luis)",
     "localidad": "san luis",
-    "nInterno": "4008",
+    "nInterno": "4157",
     "prioridad": null
   },
   {
     "organismo": "entes de gobierno",
     "nombre": "ministerio turismo cultura contable (san luis)",
     "localidad": "san luis",
-    "nInterno": "4157",
+    "nInterno": "4008",
     "prioridad": null
   },
   {
@@ -18764,6 +18764,13 @@
   },
   {
     "organismo": "entes de gobierno",
+    "nombre": "ministerio turismo cultura mesa  entrada (san luis)",
+    "localidad": "san luis",
+    "nInterno": "4049",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
     "nombre": "ministerio turismo cultura mesa  entrada (nogoli)",
     "localidad": "nogoli",
     "nInterno": "8511",
@@ -18781,13 +18788,6 @@
     "nombre": "ministerio turismo cultura mesa  entrada (concaran)",
     "localidad": "concaran",
     "nInterno": "0372",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "ministerio turismo cultura mesa  entrada (san luis)",
-    "localidad": "san luis",
-    "nInterno": "4049",
     "prioridad": null
   },
   {
@@ -18871,14 +18871,14 @@
     "organismo": "entes de gobierno",
     "nombre": "ministerio turismo cultura san luis libro (san luis)",
     "localidad": "san luis",
-    "nInterno": "6892",
+    "nInterno": "6978",
     "prioridad": null
   },
   {
     "organismo": "entes de gobierno",
     "nombre": "ministerio turismo cultura san luis libro (san luis)",
     "localidad": "san luis",
-    "nInterno": "6978",
+    "nInterno": "6892",
     "prioridad": null
   },
   {
@@ -19324,13 +19324,6 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "municipalidad (san martin)",
-    "localidad": "san martin",
-    "nInterno": "4829",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
     "nombre": "municipalidad (navia)",
     "localidad": "navia",
     "nInterno": "8087",
@@ -19348,6 +19341,13 @@
     "nombre": "municipalidad (papagayos)",
     "localidad": "papagayos",
     "nInterno": "8604",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "municipalidad (san martin)",
+    "localidad": "san martin",
+    "nInterno": "4829",
     "prioridad": null
   },
   {
@@ -19387,20 +19387,6 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "municipalidad cipe sipe centro emision (beazley)",
-    "localidad": "beazley",
-    "nInterno": "8010",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "municipalidad cipe sipe centro emision (el gigante la calera)",
-    "localidad": "el gigante la calera",
-    "nInterno": "4817",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
     "nombre": "municipalidad cipe sipe centro emision (la vertiente)",
     "localidad": "la vertiente",
     "nInterno": "4459",
@@ -19432,6 +19418,20 @@
     "nombre": "municipalidad cipe sipe centro emision (el volcan)",
     "localidad": "el volcan",
     "nInterno": "8004",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "municipalidad cipe sipe centro emision (beazley)",
+    "localidad": "beazley",
+    "nInterno": "8010",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "municipalidad cipe sipe centro emision (el gigante la calera)",
+    "localidad": "el gigante la calera",
+    "nInterno": "4817",
     "prioridad": null
   },
   {
@@ -19534,16 +19534,16 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "municipalidad contable (el trapiche)",
-    "localidad": "el trapiche",
-    "nInterno": "0390",
+    "nombre": "municipalidad contable (tilisarao)",
+    "localidad": "tilisarao",
+    "nInterno": "8607",
     "prioridad": null
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "municipalidad contable (tilisarao)",
-    "localidad": "tilisarao",
-    "nInterno": "8607",
+    "nombre": "municipalidad contable (el trapiche)",
+    "localidad": "el trapiche",
+    "nInterno": "0390",
     "prioridad": null
   },
   {
@@ -19576,13 +19576,6 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "municipalidad desarrollo social (cortaderas)",
-    "localidad": "cortaderas",
-    "nInterno": "5349",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
     "nombre": "municipalidad desarrollo social (la toma)",
     "localidad": "la toma",
     "nInterno": "8307",
@@ -19590,9 +19583,9 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "municipalidad despacho (saladillo)",
-    "localidad": "saladillo",
-    "nInterno": "4881",
+    "nombre": "municipalidad desarrollo social (cortaderas)",
+    "localidad": "cortaderas",
+    "nInterno": "5349",
     "prioridad": null
   },
   {
@@ -19607,6 +19600,13 @@
     "nombre": "municipalidad despacho (anchorena)",
     "localidad": "anchorena",
     "nInterno": "8801",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "municipalidad despacho (saladillo)",
+    "localidad": "saladillo",
+    "nInterno": "4881",
     "prioridad": null
   },
   {
@@ -19649,41 +19649,6 @@
     "nombre": "municipalidad juzgado  faltas (cortaderas)",
     "localidad": "cortaderas",
     "nInterno": "8587",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "municipalidad mesa  entrada (saladillo)",
-    "localidad": "saladillo",
-    "nInterno": "8306",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "municipalidad mesa  entrada (el volcan)",
-    "localidad": "el volcan",
-    "nInterno": "0393",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "municipalidad mesa  entrada (san martin)",
-    "localidad": "san martin",
-    "nInterno": "4932",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "municipalidad mesa  entrada (suyuque nuevo)",
-    "localidad": "suyuque nuevo",
-    "nInterno": "8269",
-    "prioridad": null
-  },
-  {
-    "organismo": "gobernacion",
-    "nombre": "municipalidad mesa  entrada (villa del carmen)",
-    "localidad": "villa del carmen",
-    "nInterno": "8614",
     "prioridad": null
   },
   {
@@ -19940,9 +19905,37 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "municipalidad obras publicas (el trapiche)",
-    "localidad": "el trapiche",
-    "nInterno": "4212",
+    "nombre": "municipalidad mesa  entrada (saladillo)",
+    "localidad": "saladillo",
+    "nInterno": "8306",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "municipalidad mesa  entrada (el volcan)",
+    "localidad": "el volcan",
+    "nInterno": "0393",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "municipalidad mesa  entrada (san martin)",
+    "localidad": "san martin",
+    "nInterno": "4932",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "municipalidad mesa  entrada (suyuque nuevo)",
+    "localidad": "suyuque nuevo",
+    "nInterno": "8269",
+    "prioridad": null
+  },
+  {
+    "organismo": "gobernacion",
+    "nombre": "municipalidad mesa  entrada (villa del carmen)",
+    "localidad": "villa del carmen",
+    "nInterno": "8614",
     "prioridad": null
   },
   {
@@ -19954,9 +19947,9 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "municipalidad oficina  turismo (las chacras)",
-    "localidad": "las chacras",
-    "nInterno": "4263",
+    "nombre": "municipalidad obras publicas (el trapiche)",
+    "localidad": "el trapiche",
+    "nInterno": "4212",
     "prioridad": null
   },
   {
@@ -19964,6 +19957,13 @@
     "nombre": "municipalidad oficina  turismo (la punta)",
     "localidad": "la punta",
     "nInterno": "8060",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "municipalidad oficina  turismo (las chacras)",
+    "localidad": "las chacras",
+    "nInterno": "4263",
     "prioridad": null
   },
   {
@@ -19985,48 +19985,6 @@
     "nombre": "municipalidad polideportivo (san jeronimo)",
     "localidad": "san jeronimo",
     "nInterno": "*0226",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "municipalidad privada (buena esperanza)",
-    "localidad": "buena esperanza",
-    "nInterno": "8817",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "municipalidad privada (buena esperanza)",
-    "localidad": "buena esperanza",
-    "nInterno": "8816",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "municipalidad privada (las chacras)",
-    "localidad": "las chacras",
-    "nInterno": "8092",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "municipalidad privada (desaguadero)",
-    "localidad": "desaguadero",
-    "nInterno": "4217",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "municipalidad privada (villa de la quebrada)",
-    "localidad": "villa de la quebrada",
-    "nInterno": "5585",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "municipalidad privada (lavaisse)",
-    "localidad": "lavaisse",
-    "nInterno": "5384",
     "prioridad": null
   },
   {
@@ -20160,6 +20118,48 @@
     "nombre": "municipalidad privada (san pablo)",
     "localidad": "san pablo",
     "nInterno": "8606",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "municipalidad privada (buena esperanza)",
+    "localidad": "buena esperanza",
+    "nInterno": "8817",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "municipalidad privada (buena esperanza)",
+    "localidad": "buena esperanza",
+    "nInterno": "8816",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "municipalidad privada (las chacras)",
+    "localidad": "las chacras",
+    "nInterno": "8092",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "municipalidad privada (desaguadero)",
+    "localidad": "desaguadero",
+    "nInterno": "4217",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "municipalidad privada (villa de la quebrada)",
+    "localidad": "villa de la quebrada",
+    "nInterno": "5585",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "municipalidad privada (lavaisse)",
+    "localidad": "lavaisse",
+    "nInterno": "5384",
     "prioridad": null
   },
   {
@@ -20339,27 +20339,6 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "oficina  turismo (carolina)",
-    "localidad": "carolina",
-    "nInterno": "8618",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "oficina  turismo (concaran)",
-    "localidad": "concaran",
-    "nInterno": "5283",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "oficina  turismo (potrero de los funes)",
-    "localidad": "potrero de los funes",
-    "nInterno": "8974",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
     "nombre": "oficina  turismo (la punilla)",
     "localidad": "la punilla",
     "nInterno": "8961",
@@ -20440,6 +20419,27 @@
     "nombre": "oficina  turismo (merlo)",
     "localidad": "merlo",
     "nInterno": "4211",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "oficina  turismo (carolina)",
+    "localidad": "carolina",
+    "nInterno": "8618",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "oficina  turismo (concaran)",
+    "localidad": "concaran",
+    "nInterno": "5283",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "oficina  turismo (potrero de los funes)",
+    "localidad": "potrero de los funes",
+    "nInterno": "8974",
     "prioridad": null
   },
   {
@@ -21523,20 +21523,6 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "san luis agua mesa  entrada (san francisco)",
-    "localidad": "san francisco",
-    "nInterno": "4452",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "san luis agua mesa  entrada (los cajones)",
-    "localidad": "los cajones",
-    "nInterno": "0592",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
     "nombre": "san luis agua mesa  entrada (villa mercedes)",
     "localidad": "villa mercedes",
     "nInterno": "5939",
@@ -21568,6 +21554,20 @@
     "nombre": "san luis agua mesa  entrada (nogoli)",
     "localidad": "nogoli",
     "nInterno": "4325",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "san luis agua mesa  entrada (san francisco)",
+    "localidad": "san francisco",
+    "nInterno": "4452",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "san luis agua mesa  entrada (los cajones)",
+    "localidad": "los cajones",
+    "nInterno": "0592",
     "prioridad": null
   },
   {
@@ -21726,20 +21726,6 @@
   },
   {
     "organismo": "entes de gobierno",
-    "nombre": "secretaria actividades logisticas operacion administrativa aduana (villa mercedes)",
-    "localidad": "villa mercedes",
-    "nInterno": "4996",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
-    "nombre": "secretaria actividades logisticas operacion administrativa aduana (villa mercedes)",
-    "localidad": "villa mercedes",
-    "nInterno": "4997",
-    "prioridad": null
-  },
-  {
-    "organismo": "entes de gobierno",
     "nombre": "secretaria actividades logisticas operacion administrativa aduana (san luis)",
     "localidad": "san luis",
     "nInterno": "4996",
@@ -21757,6 +21743,20 @@
     "nombre": "secretaria actividades logisticas operacion administrativa aduana (villa mercedes)",
     "localidad": "villa mercedes",
     "nInterno": "3561",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "secretaria actividades logisticas operacion administrativa aduana (villa mercedes)",
+    "localidad": "villa mercedes",
+    "nInterno": "4996",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "secretaria actividades logisticas operacion administrativa aduana (villa mercedes)",
+    "localidad": "villa mercedes",
+    "nInterno": "4997",
     "prioridad": null
   },
   {
@@ -21949,17 +21949,17 @@
     "prioridad": null
   },
   {
-    "organismo": "entes de gobierno",
-    "nombre": "se ambiente  des sus contable (san luis)",
-    "localidad": "san luis",
-    "nInterno": "6781",
-    "prioridad": null
-  },
-  {
     "organismo": "terrazas del portezuelo",
     "nombre": "se ambiente  des sus contable (san luis)",
     "localidad": "san luis",
     "nInterno": "3484",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "se ambiente  des sus contable (san luis)",
+    "localidad": "san luis",
+    "nInterno": "6781",
     "prioridad": null
   },
   {
@@ -22390,17 +22390,17 @@
     "prioridad": null
   },
   {
-    "organismo": "gobernacion",
-    "nombre": "secretaria general gobernacion subdireccion jovenes becarios mesa  entrada (san luis)",
-    "localidad": "san luis",
-    "nInterno": "3771",
-    "prioridad": null
-  },
-  {
     "organismo": "entes de gobierno",
     "nombre": "secretaria general gobernacion subdireccion jovenes becarios mesa  entrada (beazley)",
     "localidad": "beazley",
     "nInterno": "8443",
+    "prioridad": null
+  },
+  {
+    "organismo": "gobernacion",
+    "nombre": "secretaria general gobernacion subdireccion jovenes becarios mesa  entrada (san luis)",
+    "localidad": "san luis",
+    "nInterno": "3771",
     "prioridad": null
   },
   {
@@ -22621,13 +22621,6 @@
     "prioridad": null
   },
   {
-    "organismo": "salud",
-    "nombre": "sempro emergencia ambulancia (cortaderas)",
-    "localidad": "cortaderas",
-    "nInterno": "0613",
-    "prioridad": null
-  },
-  {
     "organismo": "entes de gobierno",
     "nombre": "sempro emergencia ambulancia (desaguadero)",
     "localidad": "desaguadero",
@@ -22635,10 +22628,10 @@
     "prioridad": null
   },
   {
-    "organismo": "entes de gobierno",
-    "nombre": "sempro emergencia ambulancia administracion (villa mercedes)",
-    "localidad": "villa mercedes",
-    "nInterno": "5467",
+    "organismo": "salud",
+    "nombre": "sempro emergencia ambulancia (cortaderas)",
+    "localidad": "cortaderas",
+    "nInterno": "0613",
     "prioridad": null
   },
   {
@@ -22646,6 +22639,13 @@
     "nombre": "sempro emergencia ambulancia administracion (san luis)",
     "localidad": "san luis",
     "nInterno": "3525",
+    "prioridad": null
+  },
+  {
+    "organismo": "entes de gobierno",
+    "nombre": "sempro emergencia ambulancia administracion (villa mercedes)",
+    "localidad": "villa mercedes",
+    "nInterno": "5467",
     "prioridad": null
   },
   {
@@ -22946,6 +22946,13 @@
     "organismo": "terrazas del portezuelo",
     "nombre": "secretaria general gobernacion despacho (san luis)",
     "localidad": "san luis",
+    "nInterno": "3026",
+    "prioridad": null
+  },
+  {
+    "organismo": "terrazas del portezuelo",
+    "nombre": "secretaria general gobernacion despacho (san luis)",
+    "localidad": "san luis",
     "nInterno": "3024",
     "prioridad": null
   },
@@ -22958,9 +22965,9 @@
   },
   {
     "organismo": "terrazas del portezuelo",
-    "nombre": "secretaria general gobernacion despacho (san luis)",
+    "nombre": "secretaria general gobernacion esc equinoterapia (san luis)",
     "localidad": "san luis",
-    "nInterno": "3026",
+    "nInterno": "3382",
     "prioridad": null
   },
   {
@@ -22975,13 +22982,6 @@
     "nombre": "secretaria general gobernacion esc equinoterapia (villa mercedes)",
     "localidad": "villa mercedes",
     "nInterno": "interno 201",
-    "prioridad": null
-  },
-  {
-    "organismo": "terrazas del portezuelo",
-    "nombre": "secretaria general gobernacion esc equinoterapia (san luis)",
-    "localidad": "san luis",
-    "nInterno": "3382",
     "prioridad": null
   },
   {
@@ -23710,14 +23710,14 @@
     "organismo": "educativos",
     "nombre": "ulp universidad punta protocolo (la punta)",
     "localidad": "la punta",
-    "nInterno": "4835",
+    "nInterno": "6196",
     "prioridad": null
   },
   {
     "organismo": "educativos",
     "nombre": "ulp universidad punta protocolo (la punta)",
     "localidad": "la punta",
-    "nInterno": "6196",
+    "nInterno": "4835",
     "prioridad": null
   },
   {
@@ -23946,6 +23946,13 @@
   },
   {
     "organismo": "educativos",
+    "nombre": "upro universidad provincial  oficios (villa mercedes)",
+    "localidad": "villa mercedes",
+    "nInterno": "6345",
+    "prioridad": null
+  },
+  {
+    "organismo": "educativos",
     "nombre": "upro universidad provincial  oficios (san martin)",
     "localidad": "san martin",
     "nInterno": "0000",
@@ -23991,13 +23998,6 @@
     "nombre": "upro universidad provincial  oficios (buena esperanza)",
     "localidad": "buena esperanza",
     "nInterno": "5103",
-    "prioridad": null
-  },
-  {
-    "organismo": "educativos",
-    "nombre": "upro universidad provincial  oficios (villa mercedes)",
-    "localidad": "villa mercedes",
-    "nInterno": "6345",
     "prioridad": null
   },
   {
